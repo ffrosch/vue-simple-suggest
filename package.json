@@ -1,7 +1,7 @@
 {
   "name": "@ffrosch/vue-simple-suggest",
   "version": "2.0.7",
-  "author": "KazanExpress",
+  "author": "KazanExpress, tbl0605, VojtechLanka, ffrosch",
   "license": "MIT",
   "type": "module",
   "files": [
@@ -14,7 +14,7 @@
     },
     "./style.css": "./dist/style.css"
   },
-  "description": "Autocomplete component for Vue3 based on @tbl0605/vue-simple-suggest which is fork from @KazanExpress/vue-simple-suggest",
+  "description": "Autocomplete component for Vue3 based on @VojtechLanka/vue-simple-suggest which is forked from @tbl0605/vue-simple-suggest which is fork from @KazanExpress/vue-simple-suggest",
   "private": false,
   "keywords": [
     "javascript",
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VojtechLanka/vue-simple-suggest.git"
+    "url": "git+https://github.com/ffrosch/vue-simple-suggest.git"
   },
   "scripts": {
     "dev": "vite",
