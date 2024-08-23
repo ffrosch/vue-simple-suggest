@@ -41,6 +41,7 @@ import { defaultControls, modes, isOn, hasKeyCodeByCode, hasKeyCode, getProperty
 export default {
   name: 'VueSimpleSuggest',
   inheritAttrs: false,
+  compatConfig: { COMPONENT_V_MODEL: false },
   props: {
     styles: { type: Object, default: () => ({}) },
     controls: { type: Object, default: () => defaultControls },
