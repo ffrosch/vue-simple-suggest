@@ -2,7 +2,7 @@
 
 A simple autocomplete for Vue 3.
 
-Forked from [@tbl0605/vue-simple-suggest](https://github.com/tbl0605/vue-simple-suggest) which was forked from [@KazanExpress/vue-simple-suggest](https://github.com/KazanExpress/vue-simple-suggest).
+Forked from [@VojtechLanka/vue-simple-suggest](https://github.com/VojtechLanka/vue-simple-suggest) which was forked from [@tbl0605/vue-simple-suggest](https://github.com/tbl0605/vue-simple-suggest) which was forked from [@KazanExpress/vue-simple-suggest](https://github.com/KazanExpress/vue-simple-suggest).
 
 ## Install
 
