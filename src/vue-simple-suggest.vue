@@ -119,7 +119,7 @@ export default {
       return Object.assign({}, this.attrsWithoutListeners, {
         onBlur: this.onBlur,
         onFocus: this.onFocus,
-        'onUpdate:modelValue': this.onInput,
+        onInput: this.onInput,
         onClick: this.showSuggestions,
         onKeydown: this.onKeyDown,
         onKeyup: this.onListKeyUp
