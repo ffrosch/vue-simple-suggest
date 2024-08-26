@@ -1,13 +1,32 @@
 # vue-simple-suggest
 
-A simple autocomplete for Vue 3.
+> [!CAUTION]
+> This fork was done to make our own transition to Vue 3 easier by being able to fix small problems we encounter along the way. Not recommended for general use.
 
 Forked from [@VojtechLanka/vue-simple-suggest](https://github.com/VojtechLanka/vue-simple-suggest) which was forked from [@tbl0605/vue-simple-suggest](https://github.com/tbl0605/vue-simple-suggest) which was forked from [@KazanExpress/vue-simple-suggest](https://github.com/KazanExpress/vue-simple-suggest).
+
+## Changes compared to [@VojtechLanka/vue-simple-suggest](https://github.com/VojtechLanka/vue-simple-suggest)
+
+```js
+export default {
+    ...
+    compatConfig: { COMPONENT_V_MODEL: false },
+    ...
+    computed: {
+        componentField () {
+          return Object.assign({}, this.attrsWithoutListeners, {
+            ...
+            onInput: this.onInput,
+            ...
+          })
+    }
+}
+```
 
 ## Install
 
 ```
-npm i @vojtechlanka/vue-simple-suggest
+npm i @ffrosch/vue-simple-suggest
 ```
 
 ## Usage
@@ -20,7 +39,7 @@ npm i @vojtechlanka/vue-simple-suggest
 
 ```javascript
 <script>
-import VueSimpleSuggest from '@vojtechlanka/vue-simple-suggest'
+import VueSimpleSuggest from '@ffrosch/vue-simple-suggest'
 
 export default {
   components: { VueSimpleSuggest },
